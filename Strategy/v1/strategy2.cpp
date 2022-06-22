@@ -1,5 +1,13 @@
-class Context;
-class StrategyFactory;
+// 这两个类的具体实现不重要
+class Context{
+
+};
+class StrategyFactory{
+public:
+    TaxStrategy* NewStrategy(){
+        return nullptr; // ...
+    }
+};
 
 
 class TaxStrategy{
@@ -55,12 +63,11 @@ public:
         delete this->strategy;
     }
 
-    public double CalculateTax(){
+    double CalculateTax(){
         //...
-        Context context();
+        Context context;
         
-        double val = 
-            strategy->Calculate(context); //多态调用
+        double val = strategy->Calculate(context); //多态调用
         //...
     }
     
