@@ -1,3 +1,9 @@
+#include <string>
+#include <iostream>
+#include <vector>
+using std::string;
+using std::vector;
+
 class IProgress{
 public:
 	virtual void DoProgress(float value)=0;
@@ -10,7 +16,7 @@ class FileSplitter
 	string m_filePath;
 	int m_fileNumber;
 
-	List<IProgress*>  m_iprogressList; // 抽象通知机制，支持多个观察者
+	vector<IProgress*>  m_iprogressList; // 抽象通知机制，支持多个观察者
 	
 public:
 	FileSplitter(const string& filePath, int fileNumber) :
@@ -41,16 +47,16 @@ public:
 	}
 
 	void removeIProgress(IProgress* iprogress){
-		m_iprogressList.remove(iprogress);
+		// remove，类似于这行语句
+		// m_iprogressList.remove(iprogress);
 	}
-
 
 protected:
 	virtual void onProgress(float value){
 		
-		List<IProgress*>::iterator itor=m_iprogressList.begin();
+		vector<IProgress*>::iterator itor=m_iprogressList.begin();
 
-		while (itor != m_iprogressList.end() )
+		while (itor != m_iprogressList.end() ){
 			(*itor)->DoProgress(value); //更新进度条
 			itor++;
 		}

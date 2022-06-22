@@ -1,3 +1,53 @@
+#include <string>
+#include <iostream>
+using std::string;
+using std::cout;
+
+// 以下几个类的具体实现不重要
+class Form{
+
+};
+
+class TextBox{
+public:
+	string getText(){
+		// ...
+		return "";
+	}
+};
+
+class ProgressBar{
+public:
+	void setValue(float value){
+		// ...
+	}
+};
+
+class FileSplitter{
+public:
+	FileSplitter(string filePath, int number){
+		// ...
+	}
+
+	void split(){
+		// ...
+	}
+
+	void addIProgress(IProgress* p){
+		// ...
+	}
+
+	void removeIProgress(IProgress* p){
+		// ...
+	}
+};
+
+class IProgress{
+
+};
+
+
+// 
 class MainForm : public Form, public IProgress
 {
 	TextBox* txtFilePath;

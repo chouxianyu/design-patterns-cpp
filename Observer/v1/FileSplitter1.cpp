@@ -1,3 +1,14 @@
+#include <string>
+#include <iostream>
+using std::string;
+
+class ProgressBar{
+public:
+	void setValue(float value){
+		// ...
+	}
+};
+
 class FileSplitter
 {
 	string m_filePath;

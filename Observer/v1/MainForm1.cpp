@@ -1,3 +1,36 @@
+#include <string>
+#include <iostream>
+using std::string;
+
+// 以下几个类的具体实现不重要
+class Form{
+
+};
+
+class TextBox{
+public:
+	string getText(){
+		// ...
+		return "";
+	}
+};
+
+class ProgressBar;
+
+class FileSplitter{
+public:
+	FileSplitter(string filePath, int number, ProgressBar* progressBar){
+		// ...
+	}
+
+	void split(){
+		// ...
+	}
+};
+
+
+
+// 
 class MainForm : public Form
 {
 	TextBox* txtFilePath;
