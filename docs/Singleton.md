@@ -26,3 +26,8 @@
 * Singleton模式中的实例构造器可以设置为protected，以允许子类派生
 * Singleton偶数一般不要支持拷贝构造函数和clone接口，因为这有可能导致有多个对象实例，违背了Singleton模式的初衷
 * 如何实现多线程环境下安全的Singleton？注意对双检查锁的正确实现
+
+### 代码
+
+https://github.com/chouxianyu/design-patterns-cpp/tree/master/Singleton
+
