@@ -22,6 +22,6 @@
 * 如果请求机制传递到职责链末尾仍得不到处理，应该有一个合理的缺省机制。这也是每一个接受对象的责任，而不是请求发送者的责任
 * 注：该模式现在有点点过时，应用不多
 
-## 代码
+### 代码
 
 https://github.com/chouxianyu/design-patterns-cpp/tree/master/ChainOfResponsibility
