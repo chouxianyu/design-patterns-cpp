@@ -1,6 +1,6 @@
-### 面向对象设计模式（C++）
+## 面向对象设计模式（C++）
 
-### 设计模式的分类
+## 设计模式的分类
 
 从封装变化角度对设计模式的分类
 
@@ -38,7 +38,7 @@
   * [Interpreter](https://github.com/chouxianyu/design-patterns-cpp/blob/master/docs/Interpreter.md)
 
 
-### References
+## References
 
 - [Boolan首席软件专家李建忠《C++设计模式》(bilibili.com)](https://space.bilibili.com/34814155/channel/collectiondetail?sid=476629)
 - [liu-jianhao/Cpp-Design-Patterns: C++设计模式 (github.com)](https://github.com/liu-jianhao/Cpp-Design-Patterns)
