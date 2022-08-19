@@ -1,20 +1,24 @@
 .. design-patterns-cpp documentation
 
 
-[design-patterns-cpp](https://github.com/chouxianyu/design-patterns-cpp)
+Design-Patterns-CPP
 ====================================
+
+Github Project:
+
+https://github.com/chouxianyu/design-patterns-cpp
 
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Introduction
+   :maxdepth: 1
+   :caption: 引言
 
    Introduction.md
 
 
 .. toctree::
    :maxdepth: 2
-   :caption: Taxonomy
+   :caption: 设计模式分类
 
    Taxonomy.md
 
@@ -62,6 +66,14 @@
    Proxy.md
    Adapter.md
    Mediator.md
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: “状态变化”模式
+
+   State.md
+   Memento.md
 
 
 .. toctree::

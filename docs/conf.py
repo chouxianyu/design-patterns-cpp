@@ -17,12 +17,12 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'degisn-patterns-cpp'
-copyright = '2022, https://github.com/chouxianyu'
+project = 'Degisn-Patterns-CPP'
+copyright = 'https://github.com/chouxianyu'
 author = 'https://github.com/chouxianyu'
 
 # The full version, including alpha/beta/rc tags
-release = 'v0.0.1'
+release = ''
 
 
 # -- General configuration ---------------------------------------------------

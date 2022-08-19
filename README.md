@@ -1,5 +1,7 @@
 ## 面向对象设计模式（C++）
 
+在线文档：https://design-patterns-cplusplus.readthedocs.io/
+
 ## 设计模式的分类
 
 从封装变化角度对设计模式的分类
