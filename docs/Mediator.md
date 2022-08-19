@@ -31,4 +31,4 @@
 
 ## 代码
 
-https://github.com/chouxianyu/design-patterns-cpp/tree/master/Mediator
+[https://github.com/chouxianyu/design-patterns-cpp/tree/master/Mediator](https://github.com/chouxianyu/design-patterns-cpp/tree/master/Mediator)

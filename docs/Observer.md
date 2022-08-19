@@ -29,4 +29,4 @@
 
 ## 代码
 
-https://github.com/chouxianyu/design-patterns-cpp/tree/master/Observer
+[https://github.com/chouxianyu/design-patterns-cpp/tree/master/Observer](https://github.com/chouxianyu/design-patterns-cpp/tree/master/Observer)

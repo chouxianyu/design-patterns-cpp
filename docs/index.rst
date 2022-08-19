@@ -17,7 +17,7 @@ https://github.com/chouxianyu/design-patterns-cpp
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: 设计模式分类
 
    Taxonomy.md

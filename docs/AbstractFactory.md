@@ -28,4 +28,4 @@
 
 ## 代码
 
-https://github.com/chouxianyu/design-patterns-cpp/tree/master/AbstractFactory
+[https://github.com/chouxianyu/design-patterns-cpp/tree/master/AbstractFactory](https://github.com/chouxianyu/design-patterns-cpp/tree/master/AbstractFactory)

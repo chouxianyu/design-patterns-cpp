@@ -25,4 +25,4 @@ Facade模式没有特定的代码结构，它更多是一种思想和架构设�
 
 ## 代码
 
-https://github.com/chouxianyu/design-patterns-cpp/tree/master/Facade
+[https://github.com/chouxianyu/design-patterns-cpp/tree/master/Facade](https://github.com/chouxianyu/design-patterns-cpp/tree/master/Facade)
